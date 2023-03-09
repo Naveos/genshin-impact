@@ -81,12 +81,12 @@ body {
 }
 
 .title-image {
-  width: 800px;
+  width: 90%;
   filter: brightness(75%);
   transition: all 0.3s;
 }
 .title-image:hover {
-  width: 850px;
+  width: 100%;
   filter: brightness(100%);
 }
 
@@ -114,10 +114,11 @@ body {
   width: 100%;
 }
 
-.link {
+p a {
   text-decoration: none;
   color: #c7bf2b;
+  font-weight: bold;
 }
-.link:hover {
+p a:hover {
   text-decoration: underline;
 }
