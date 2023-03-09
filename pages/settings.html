@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>Genshin Impact</title>
+</head>
+<body>
+    <header>
+        <ul id="headerList">
+            <li><a class="headerLink" href="../index.html">Accueil</a></li>
+            <li><a class="headerLink" href="teambuild.html">Completeur d'equipe</a></li>
+            <li><a class="headerLink" href="reactions.html">Reactions elementaires</a></li>
+            <li><a class="headerLink" href="characters-index.html">Personnages</a></li>
+            <li><a class="headerLinkRight" href="#">Reglages</a></li>
+        </ul>
+    </header>
+    <br>
+    <br>
+    <br>
+    <div class="content">
+        <h1>REGLAGES :</h1>
+        <br>
+        <form action="">
+            <label for="">Thème : </label>
+            <select name="theme" id="theme">
+                <option value="choose">Choisir un theme</option>
+                <option value="default">Sombre</option>
+                <option value="anemo">Anemo</option>
+                <option value="cryo">Cryo</option>
+                <option value="dendro">Dendro</option>
+                <option value="electro">Electro</option>
+                <option value="geo">Geo</option>
+                <option value="hydro">Hydro</option>
+                <option value="pyro">Pyro</option>
+            </select>
+            <br><br>
+            <button id="submit-btn" onclick="changeTheme()">Sauvegarder</button>
+        </form>
+    </div>
+    <script src="../scripts.js"></script>
+</body>
+</html>

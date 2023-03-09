@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Genshin;
+    src: url(assets/fonts/genshin_font.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Genshin',Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #3c3c3c;
+  color: white;
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+
+.content{
+    font-family: 'Genshin',Arial, Helvetica, sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 7mm;
+}
+.content h1 {
+    font-size: 12mm;
+    margin-left: 15%;
+}
+
+#theme {
+    background-color: #3c3c3c;
+    color: white;
+    font-size: 7mm;
+    font-family: 'Genshin', Arial, Helvetica, sans-serif;
+    border-style: none;
+}
+#submit-btn {
+    background-color: #3c3c3c;
+    color: white;
+    font-size: 7mm;
+    font-family: 'Genshin', Arial, Helvetica, sans-serif;
+    border-style: none;
+}
+#submit-btn:hover {
+    cursor: pointer;
+}
+
+#headerList{
+  list-style: none;
+  overflow: hidden;
+  width: auto;
+  background-color: #3c3c3c;
+}
+.headerLink{
+  display: block;
+  float: left;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 6mm;
+  transition: 0.3s;
+  color: #eeeeee;
+}
+.headerLinkRight {
+  display: block;
+  float: right;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #eeeeee;
+  font-size: 6mm;
+  transition: 0.3s;
+}
+.headerLink:hover{
+  text-decoration: underline;
+}
+.headerLinkRight:hover{
+  text-decoration: underline;
+}
+
+.title-image {
+  width: 800px;
+  filter: brightness(75%);
+  transition: all 0.3s;
+}
+.title-image:hover {
+  width: 850px;
+  filter: brightness(100%);
+}
+
+.element-select {
+  width: 200px;
+  filter: brightness(75%);
+  transition: all 0.3s;
+}
+.element-select:hover {
+  filter: brightness(100%);
+  transform: rotate(15deg);
+}
+
+.perso-select {
+  width: 130px;
+  filter: brightness(75%);
+  transition: all 0.3s;
+}
+.perso-select:hover {
+  filter: brightness(100%);
+  transform: translateY(-10px);
+}
+
+.characters-card{
+  width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: #c7bf2b;
+}
+.link:hover {
+  text-decoration: underline;
+}
