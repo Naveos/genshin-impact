@@ -2,7 +2,18 @@
     font-family: Genshin;
     src: url(assets/fonts/genshin_font.ttf);
 }
+body::-webkit-scrollbar {
+  width: 15px;
+}
 
+body::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #c7bf2b;
+  border-radius: 10px;
+}
 * {
   box-sizing: border-box;
   padding: 0;
